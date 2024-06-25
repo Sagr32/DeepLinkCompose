@@ -57,6 +57,7 @@ class MainActivity : ComponentActivity() {
                                 defaultValue = -1
                             }
                         )
+
                     ) { entry ->
                         val id = entry.arguments?.getInt("id")
                         Box(
